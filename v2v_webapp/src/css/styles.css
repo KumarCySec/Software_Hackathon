@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}
+.road {
+  background: #333;
+}
+.control-btn {
+  transition: transform 0.2s, background-color 0.2s;
+}
+.control-btn:hover {
+  transform: scale(1.1);
+}
+.control-btn:active {
+  background-color: #1e40af;
+}
+.speedometer {
+  transform: rotate(-135deg);
+}
+.needle {
+  transition: transform 0.5s ease;
+}
+.control-panel {
+  cursor: ew-resize;
+}
+.vehicle {
+  transition: transform 0.3s ease;
+}
+.info-panel {
+  background: linear-gradient(145deg, #1f2937, #111827);
+}
